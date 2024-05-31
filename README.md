@@ -11,9 +11,8 @@ Proyecto Mascotas Felices para curso Desarrollo Multiplataforma de la UDV 2024
 3. [Funcionalidades del proyecto](#funcionalidades-del-proyecto)
 4. [Acceso al Proyecto](#acceso-al-proyecto)
 5. [Tecnologías Utilizadas](#tecnologías-utilizadas)
-6. [Personas Contribuyentes](#personas-contribuyentes)
-7. [Personas Desarrolladoras del Proyecto](#personas-desarrolladoras-del-proyecto)
-8. [Licencia](#licencia)
+6. [Personas Desarrolladoras del Proyecto](#personas-desarrolladoras-del-proyecto)
+7. [Licencia](#licencia)
 
 ## Descripción del Proyecto
 
