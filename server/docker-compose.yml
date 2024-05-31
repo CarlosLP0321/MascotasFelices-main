@@ -1,0 +1,25 @@
+version: '3'
+services:
+  db:
+    ports:
+      - "5432:5432"
+    image: postgres:12
+    volumes:
+      - projectdb:/var/lib/postgresql@12/data
+    environment:
+      POSTGRES_HOST_AUTH_METHOD: trust
+      POSTGRES_DB: mascotas_felices
+      DBUSER: postgres
+      DBPASSWORD: postgres
+  web:
+    build: .
+    command: python /code/manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+
+volumes:
+  projectdb:
